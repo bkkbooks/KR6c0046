@@ -1,0 +1,97 @@
+canonical_identifier: bkk:krp/KR6c0046/v1
+canonical_location: https://kanripo.org/bkk/KR6c0046/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 金剛經註疏
+  identifiers:
+    alt_id:
+    - X24n0456
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X24/X24n0456.xml
+    old_id: X24n0456
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0046_000.yaml, hash: 'sha256:0d939d29f2497f7ed87eff0ed4e2cb35b41266b422f76ea45c701db6caadc535'}
+  - {seq: 1, filename: KR6c0046_001.yaml, hash: 'sha256:ba065d56590bd1e7845172c3fb705d2bc729a50bf9682eeef885e540503130d0'}
+  - {seq: 2, filename: KR6c0046_002.yaml, hash: 'sha256:62da8f1cf9813261e0fe58c693d38b4c547d66c9e26b7aa6d156c5078eec702f'}
+  - {seq: 3, filename: KR6c0046_003.yaml, hash: 'sha256:362341069a7499749c17d2e637ca7c1a6f08ceb91d14d28703caac84e18719d0'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6c0046_000.markers.yaml, hash: 'sha256:f0c045c500a8f6ef0ca5a393a140dfc8859a3250f792740dbb63130252b52a1b'}
+  - {seq: 1, role: markers, filename: assets/KR6c0046_001.markers.yaml, hash: 'sha256:48ace516e1d2f773be5b2837c9baab42546f40eb9dbf986e828bf69919829d98'}
+  - {seq: 2, role: markers, filename: assets/KR6c0046_002.markers.yaml, hash: 'sha256:3f39af4581c4b20ace6ab8eb4a7a76ce4712e176c8f3f566a9965f4526efaa9b'}
+  - {seq: 3, role: markers, filename: assets/KR6c0046_003.markers.yaml, hash: 'sha256:a0612e7705879492aae7c9a19a30541ef8bf3dba4914af315868a87b7d791b70'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6c0046_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: No. 456-A 金剛般若經註序
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6c0046_X_000-mulu-2
+    span:
+    - front
+    - 423
+    - 423
+  label: 金剛經註疏
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6c0046_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 8021
+  label: 金剛般若波羅蜜經卷上并註
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6c0046_X_002-juan-start
+    span:
+    - body
+    - 0
+    - 6314
+  label: 金剛般若波羅蜜經注卷中
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6c0046_X_003-juan-start
+    span:
+    - body
+    - 0
+    - 6831
+  label: 金剛般若波羅蜜經註卷下
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6c0046_X_003-mulu-1
+    span:
+    - body
+    - 6685
+    - 6685
+  label: No. 456-B
+  type: mulu
+  level: 1
+hash: sha256:7a690028bdcdfffa8105d5ce217259291181f584b859549151f8bcd42cfd647d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
