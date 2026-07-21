@@ -19,12 +19,12 @@ metadata:
     short: X
 assets:
   parts:
-  - {seq: 0, filename: KR6c0046_000-X.yaml, hash: 'sha256:cdb0269294bc88edcfe411db30c17288558d5a39981f97450f1f5a4c7c00040a'}
+  - {seq: 0, filename: KR6c0046_000-X.yaml, hash: 'sha256:67b1f5c68e22c6ecc74233e2d29e92f9d6d176d0257196251341984ab6d688c0'}
   - {seq: 1, filename: KR6c0046_001-X.yaml, hash: 'sha256:5ee8db99deeed340d379664297cb981744ceb31d5b5a95e70da13d8d77479d13'}
   - {seq: 2, filename: KR6c0046_002-X.yaml, hash: 'sha256:990d100a1b063753348bc9fa830b303de476063688d81501acb0e3613fe50d34'}
   - {seq: 3, filename: KR6c0046_003-X.yaml, hash: 'sha256:f1a773ba14ab3635cf22723084b688d45840f405d751bc640124fe3201ecb7cc'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6c0046_000-X.markers.yaml, hash: 'sha256:e706e530af49c8c92abf2d18d80609cf80409c5d5a29cebc79cacc323a964f77'}
+  - {seq: 0, role: markers, filename: assets/KR6c0046_000-X.markers.yaml, hash: 'sha256:9d8de5e91fc16ddb3e657a623e05181f7a055edaaad0332e0a4c1a5ecdb9f09f'}
   - {seq: 1, role: markers, filename: assets/KR6c0046_001-X.markers.yaml, hash: 'sha256:e585aebadcf8c077ae503c884c18419e13c4a8599f65fdab043e4bd1ba09f7b1'}
   - {seq: 2, role: markers, filename: assets/KR6c0046_002-X.markers.yaml, hash: 'sha256:5ab637f3711a00d9991889ff2e405be600374f653818ecba2f8f026377aceeb4'}
   - {seq: 3, role: markers, filename: assets/KR6c0046_003-X.markers.yaml, hash: 'sha256:7da58bfb73982b34d26d2d2b2e7e9f4b3c60b6ca0a4edfa8c3f4248f99a377c1'}
@@ -33,7 +33,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6c0046_X_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: No. 456-A 金剛般若經註序
@@ -43,7 +43,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6c0046_X_000-mulu-2
     span:
-    - front
+    - body
     - 423
     - 423
   label: 金剛經註疏
@@ -89,4 +89,4 @@ table_of_contents:
   label: No. 456-B
   type: mulu
   level: 1
-hash: sha256:50c482ffb3887fe7c4873ce39afca1f97179490605f8fa02501f4c6b22ee76e8
+hash: sha256:34f28f5fdd3beac97a194d79d204a3dad3eb39a46224a1ded952f70ad57e5f2d
